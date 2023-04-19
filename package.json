@@ -1,0 +1,34 @@
+{
+  "name": "human-centered-design-2223",
+  "version": "1.0.0",
+  "description": "The copy and paste machine 2.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RainbowJM/human-centered-design-2223.git"
+  },
+  "keywords": [
+    "copy",
+    "paste",
+    "table",
+    "voice"
+  ],
+  "author": "Jevona Magdalena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RainbowJM/human-centered-design-2223/issues"
+  },
+  "homepage": "https://github.com/RainbowJM/human-centered-design-2223#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
