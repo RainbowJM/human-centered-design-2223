@@ -16,29 +16,55 @@ recButton.addEventListener('change', function () {
     }
 });
 
+document.addEventListener('selectionchange', () => {
+    var select = window.getSelection();
+    if (select.toString() !== '')
+        selectedText = select.toString();
+});
+
 if (SpeechRecognition) {
     recognition = new SpeechRecognition();
-    recognition.lang = "en-US";
+    recognition.lang = 'en-US';
     recognition.continuous = true;
     recognition.interimResults = false;
 }
 
-document.addEventListener('selectionchange', () => {
-    var selObj = window.getSelection();
-    console.log(selObj);
-    if(selObj.toString() !== '')
-        selectedText = selObj.toString();
-        console.log(selectedText);
-});
+recognition.addEventListener('result', (message) => {
+    const text = Array.from(message.results)
+        .map(result => result[0])
+        .map(result => result.transcript)
+        .join('');
+
+    if (text === 'copy') {
+        copy();
+    } else if (text === 'paste') {
+        paste();
+    }
+
+    console.log(text);
+})
 
 function start() {
     listen = true;
-    alert("Mic is on");
+    alert('Mic is on');
     recognition.start();
 }
 
 function stop() {
     listen = false;
-    alert("Mic is off");
+    alert('Mic is off');
     recognition.stop();
+}
+
+function copy() {
+    navigator.clipboard
+        .writeText(selectedText)
+}
+
+function paste() {
+    navigator.clipboard
+        .readText()
+        .then(text => {
+            console.log(text);
+        })
 }
