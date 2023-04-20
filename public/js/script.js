@@ -23,6 +23,14 @@ if (SpeechRecognition) {
     recognition.interimResults = false;
 }
 
+document.addEventListener('selectionchange', () => {
+    var selObj = window.getSelection();
+    console.log(selObj);
+    if(selObj.toString() !== '')
+        selectedText = selObj.toString();
+        console.log(selectedText);
+});
+
 function start() {
     listen = true;
     alert("Mic is on");
