@@ -1,20 +1,31 @@
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-const recButton = document.getElementById('microphone');
+// const recButton = document.getElementById('microphone');
 let recognition;
 let listen = false;
-let selectedText = "";
-let lastMessage = "";
+let selectedText = '';
+let lastMessage = '';
 
-recButton.addEventListener('change', function () {
-    if (this.checked) {
-        console.log("checked");
-        start()
+// recButton.addEventListener('change', function () {
+//     if (this.checked) {
+//         console.log('checked');
+//         start()
+//     }
+//     else {
+//         console.log('unchecked');
+//         stop();
+//     }
+// });
+
+window.addEventListener('keydown', (e) => {
+    if (e.key === 's') {
+        console.log('start');
+        start();
     }
-    else {
-        console.log("unchecked");
+    else if (e.key === 'p') {
+        console.log('stop');
         stop();
     }
-});
+})
 
 document.addEventListener('selectionchange', () => {
     var select = window.getSelection();
