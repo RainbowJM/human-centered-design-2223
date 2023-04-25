@@ -1,20 +1,8 @@
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-// const recButton = document.getElementById('microphone');
 let recognition;
 let listen = false;
 let selectedText = '';
 let lastMessage = '';
-
-// recButton.addEventListener('change', function () {
-//     if (this.checked) {
-//         console.log('checked');
-//         start()
-//     }
-//     else {
-//         console.log('unchecked');
-//         stop();
-//     }
-// });
 
 window.addEventListener('keydown', (e) => {
     if (e.key === 's') {
@@ -28,9 +16,10 @@ window.addEventListener('keydown', (e) => {
 })
 
 document.addEventListener('selectionchange', () => {
-    var select = window.getSelection();
-    if (select.toString() !== '')
+    let select = window.getSelection();
+    if (select.toString() !== '') {
         selectedText = select.toString();
+    }
 });
 
 if (SpeechRecognition) {
