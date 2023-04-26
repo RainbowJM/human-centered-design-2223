@@ -1,3 +1,5 @@
+const popup = document.querySelector('.message');
+console.log(popup);
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 let recognition;
 let listen = false;
@@ -30,18 +32,17 @@ if (SpeechRecognition) {
 }
 
 recognition.addEventListener('result', (message) => {
-    const text = Array.from(message.results)
-        .map(result => result[0])
-        .map(result => result.transcript)
-        .join('');
-
+    const results = message.results.length -1 ;
+    const lastResult = message.results[results].length -1;
+    let word = message.results[results][lastResult].transcript;
+    let splitWord = word.split(' ')
+    let text = splitWord[splitWord.length - 1]
+    
     if (text === 'copy') {
         copy();
     } else if (text === 'paste') {
         paste();
     }
-
-    console.log(text);
 })
 
 function start() {
@@ -57,8 +58,10 @@ function stop() {
 }
 
 function copy() {
+    popup.classList.add('show');
+    popup.innerHTML = 'Copied';
     navigator.clipboard
-        .writeText(selectedText)
+    .writeText(selectedText)
 }
 
 function paste() {

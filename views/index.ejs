@@ -2,12 +2,21 @@
 <html lang="en">
 
 <head>
-    <%- include('./partials/head'); %>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="description" content="Copy & Paste 2.0">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <script src="/js/script.js" defer></script>
+    <title>Copy & Paste 2.0</title>
 </head>
 
 <body>
     <header>
-        <%- include('./partials/header'); %>
+        <h1>Copy & Paste 2.0</h1>
+        <span>Use voice to copy & paste</span>
+        <p>Press s to start & press p to pauze</p>
     </header>
 
     <main>
@@ -16,6 +25,10 @@
                 The rental category depends on the characteristics of the residence. If the rental value according to
                 those characteristics does not exceed the threshold, the rent is regulated. Above that rental price,
                 rent is not controlled.</p>
+        </section>
+        <div class="message"></div>
+        <section id="paste">
+            <p></p>
         </section>
     </main>
 
