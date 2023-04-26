@@ -58,13 +58,18 @@ function stop() {
 }
 
 function copy() {
-    popup.classList.add('show');
-    popup.innerHTML = 'Copied';
     navigator.clipboard
     .writeText(selectedText)
+    .then(() => {
+        setTimeout(() => {
+            popup.classList.add('show'), 5000;
+            popup.innerHTML = 'Copied';
+        })
+    }) 
 }
 
 function paste() {
+    popup.classList.remove('show');
     navigator.clipboard
         .readText()
         .then(text => {
