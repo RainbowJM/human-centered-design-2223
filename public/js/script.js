@@ -1,5 +1,5 @@
 const popup = document.querySelector('.message');
-console.log(popup);
+const pastText = document.querySelector('#paste p');
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 let recognition;
 let listen = false;
@@ -74,5 +74,6 @@ function paste() {
         .readText()
         .then(text => {
             console.log(text);
+            pastText.innerHTML = text;
         })
 }
