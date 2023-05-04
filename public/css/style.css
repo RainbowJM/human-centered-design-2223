@@ -25,7 +25,7 @@ main {
 
 section:nth-of-type(1) {
     display: grid;
-    grid-area: 1 / 1 / 1 / 5;
+    grid-area: 1 / 1 / 1 / 4;
     border-radius: 10px;
     padding: 2em;
     background-color: rgb(131, 241, 131);
