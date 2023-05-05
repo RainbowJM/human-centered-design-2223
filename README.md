@@ -1,12 +1,24 @@
-# Copy & Paste 2.0
+# [Copy & Paste 2.0](https://copy-paste.adaptable.app/)
 
 ## Table of content
+- [Installation](#installation)
+- [Design Principles](#design-principles)
+- [User Needs](#user-needs)
+- [Tests](#tests)
+- [Test Results](#test-results)
+- [Source](#source)
+## Installation
 
+## Design Principles
 
+## User Needs
 
-## Rubric
+## Tests
 
-De opdracht wordt beoordeeld aan de hand van onderstaande rubric. Je moet slagen voor het criterium (middenkolom) om het vak te halen. 
+## Test Results
+
+## Source
+
 
 | Ontoereikend  | Criteria  |  Verbetering |
 |---|---|---|
@@ -20,15 +32,11 @@ De opdracht wordt beoordeeld aan de hand van onderstaande rubric. Je moet slagen
 
 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
 
 <!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
 
 <!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
 
-<!-- Maybe a table of contents here? 📚 -->
 
 <!-- How about a section that describes how to install this project? 🤓 -->
 
