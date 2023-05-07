@@ -192,7 +192,7 @@ src:
 After the first testing of the prototype. 
 I continued to work on the prototype, and added more feature to it.
 
-For the second testing op the prototype
+For the second testing op the prototype, I focus on how to copy paste with voice.
 src:
 - 
 ## Feature
