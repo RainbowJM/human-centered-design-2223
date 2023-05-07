@@ -109,6 +109,7 @@ Plans/Idea's for next prototype:
 - Command that does a few actions, to cut and paste.
 - Easier way to turn speech software on and off.
 
+
 <details><summary>Full insight how the test went step by step</summary>
 The first test went as follow.
 
@@ -193,9 +194,45 @@ src:
 After the first testing of the prototype. 
 I continued to work on the prototype, and added more feature to it.
 
-For the second testing op the prototype, I focus on how to copy paste with voice.
+For the second testing op the prototype, I focus on how to copy paste with voice. 
+
+Version two of the prototype you can find it in the following branch: [Version 2](https://github.com/RainbowJM/human-centered-design-2223/tree/v2)
+
+For this testing I made a test plan.
+The test plan was the following:
+
+Create a scenario: 
+- You would like to be able to select important texts, copy and paste it.
+
+Task:
+- You have read the text and would like to select, copy and paste it.
+
+She did take a bit to understand, how you have to do this.
+Mainly because the application was in english.
+I did have to give a few hints to her. 
+The dragging part is still a difficult part for her.
+The part where she could use the speech tool to copy and past she liked it.
+
+- Turn on the speech tool.
+
+Again because de application was in english she did not understand, the instructions a first.
+but after giving some hints, she did it.
+
+- Give feedback about the styling in light mode
+
+She like it that it was in light mode, because dark mode made it difficult for her to read
+
+Plans/Idea's for next prototype:
+- Change the language of the application
+- Copying without scrolling longer.
+- Text should be large enough so she can read it.
+- Selecting without dragging, instead use voice.
+- Scroll down with a key/speech, or move to the side.
+- Command that does a few actions, to cut and paste.
+
 src:
-- 
+- https://developer.mozilla.org/en-US/docs/Web/API/Selection
+
 ## Feature
 ### Checklist
 - [X] User can select one word or multiple words from the text copy and paste it by using speech.
