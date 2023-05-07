@@ -213,7 +213,7 @@ I did have to give a few hints to her.
 The dragging part is still a difficult part for her.
 The part where she could use the speech tool to copy and past she liked it.
 
-- Turn on the speech tool.
+- Turn on/off the speech tool.
 
 Again because de application was in english she did not understand, the instructions a first.
 but after giving some hints, she did it.
