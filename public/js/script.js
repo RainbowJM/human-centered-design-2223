@@ -1,5 +1,5 @@
 const popup = document.querySelector('.message');
-console.log(popup);
+const pastText = document.querySelector('#paste p');
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 let recognition;
 let listen = false;
@@ -26,9 +26,14 @@ document.addEventListener('selectionchange', () => {
 
 if (SpeechRecognition) {
     recognition = new SpeechRecognition();
-    recognition.lang = 'en-US';
     recognition.continuous = true;
     recognition.interimResults = false;
+    // recognition.interimResults = true;
+    if (localStorage.getItem("language")) {
+        recognition.lang = "en-US"
+    } else {
+        recognition.lang = "nl-NL"
+    }
 }
 
 recognition.addEventListener('result', (message) => {
@@ -47,13 +52,13 @@ recognition.addEventListener('result', (message) => {
 
 function start() {
     listen = true;
-    alert('Mic is on');
+    alert('Microfoon staat aan');
     recognition.start();
 }
 
 function stop() {
     listen = false;
-    alert('Mic is off');
+    alert('Microfoon staat uit');
     recognition.stop();
 }
 
@@ -63,7 +68,7 @@ function copy() {
     .then(() => {
         setTimeout(() => {
             popup.classList.add('show'), 5000;
-            popup.innerHTML = 'Copied';
+            popup.innerHTML = 'Gekopieerd';
         })
     }) 
 }
@@ -74,5 +79,6 @@ function paste() {
         .readText()
         .then(text => {
             console.log(text);
+            pastText.innerHTML = text;
         })
 }
