@@ -66,6 +66,7 @@ src: https://www.getfeedback.com/resources/ux/how-user-scenarios-help-to-improve
 
 ## Tests
 ### Round 1
+<img width="1102" alt="Screenshot 2023-05-07 at 21 50 02" src="https://user-images.githubusercontent.com/59873140/236699647-d0a3877b-86f9-476e-9d1d-c8f4554faaa9.png">
 For the first test I created a prototype based on the informations that we got from the assignment (without knowing her).
 During the first test it was important to get to know Nicolette a little bit more.
 By asking her a few questions.
