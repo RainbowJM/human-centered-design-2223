@@ -7,7 +7,6 @@ This application is designed for 1 human being. That human being is Nicolette.
 - [Design Principles](#design-principles)
 - [User Needs](#user-needs)
 - [Tests](#tests)
-- [Test Results](#test-results)
 
 ---
 ## Concept
@@ -86,30 +85,137 @@ After the introduction round, was the round were Nicolette could try the first v
 
 Version one of the prototype you can find it in the following branch: [Version 1](https://github.com/RainbowJM/human-centered-design-2223/tree/v1)
 
+The this prototype was made based on the informa=tion that we got ans assumptions that I made about Nicolette.
+The first version of the prototype was a simple HTMl page  with nonsense text. 
+For the copy and paste part, You had to select the text by dragging and by using the web speech api I should copy it and paste. 
+But sadly while testing we found a bug, that is why tha prototype wasn't working as it should.
+
+Feedback:
+- She found it very difficult because she had to select everything
+- She would like to select without scrolling 
+- She has on her pen a right mouse button on so she can select a little bit, but it she wants to do it with speech
+- Make settings of Speech easier to select text.
+- She want a easier way to select text.
+
+Plans/Idea's for next prototype:
+- Ensuring that you can perform action with one command, key, tap, click.
+- Copying without scrolling longer.
+- Implement only light mode.
+- There should have a clear contrast between the foreground and the background edge.
+- Text should be large enough so she can read it.
+- Selecting without dragging, instead use voice.
+- Scroll down with a key/speech, or move to the side.
+- Command that does a few actions, to cut and paste.
+- Easier way to turn speech software on and off.
+
+<details><summary>Full insight how the test went step by step</summary>
+The first test went as follow.
+
+She came in you could see already how she manage to transport herself in the wheelchair.
+She was controlling the wheel chair by moving her feets.
+She usually uses her second finger to operate her cell phone.
+That was the fierst observation that I had.
+
+We had a conversation with her, to get to know her better.
+Here is where she explained to us that the connection between her brain and limbs, doesn't work as it should
+She can't feel her limbs, or when she touch something.
+Her central nervous system works fine, but the other nervous systems doesn't. 
+She has spasms that are very painful. 
+She can move her fingers but not all of them. 
+It is a hassle for her to copy and paste.
+
+Who is Nicolette:
+- She is a geologist
+- She worked at the municipality of Amsterdam
+- SHe is president of the disabled organization southeastwest in 2001
+- She is 76 years old 
+- She goes to the gym, since 30 years she goes there, and has a feeling that she can operate more with her fingers. This also allows her to move her limbs better now. Before, she had to ask to lift her legs.
+- She could not exercise according to the sports rehabilitation center when she was 40 years old. So she went to the doctor, because she did feel that she cannot live without moving.
+- She goes to vacation with her new laptop, drawing tablet and microphone for speech.
+- Because she is a geologist she is going to vacation to Iceland, she is going by helicopter. She goes to see spitsbergen.
+- She reads mostly on paper, because she's old-fashioned. I think a lot of books.
+- She uses all kinds of websites, especially architecture websites, climate change, biology, geology.
+- She also reads newspapers.
+- Subjects that interest her are, nature, climate change.
+- Been very politically active, and she thinks it's not possible if you don't have a computer.
+- Mountaineer was her hobby
+
+Nicolette's Devices:
+- Acer laptop windows 11
+- Uses speech software, Dragon 6
+- Drawing tablet,  Wacom intuos S, only as a mouse
+
+Nicolette writes a lot, she has a lot of files. 
+It is getting harder and harder to copy pieces from one place and place them in another file folder. 
+The earlier version of windows it was easy to cut and paste. 
+Windows 11 is a little more difficult. 
+
+Step by step how Nicolette copy and paste text/files:
+1. Piece is stored in a document in downloads. And you think that should be in another file.
+2. Go up to get to the pin
+3. Then open the file folder and if there are many file folder she has to scroll to go to the right file folder, and she finds it by scrolling.
+4. She check the file she needs to copy and click the copy icon.
+5. She has something installed that puts checkboxes at the front of all files.
+6. When she checks the checkbox, the file is selected.
+7. Then she goes to scissors, and hope she can click to scissors.
+8. Then she has to go to the other folder to document (downloads), to share the document somewhere in the other file.
+9. When she has found the folder she can paste.
+
+Nicolette finds it complicated to navigate with the speech software, she wants to do as much as possible with the tablet that she uses as a mouse. 
+But typing she does mostly with speech on her phone, she showed us how she sends a message to Eric with speech. 
+She can type, because Eric name was written wrong and tap with to press the voice button. 
+She can also hold her phone and say her message. 
+She tapped the send button with her second finger. 
+She finds it a little difficult to scroll( swiping) with her fingers. 
+She did a circular motion, before she presses the send button.
+It kind of aiming, if her hand does not do immediately, then she try to look from although her hand wants to take the target. 
+Because it's going to take some time. 
+And sometimes it doesn't work because when she has spasm she can't commuicate because it's very painful.
+
+She was asked if she can work in public with her speech tool, but she does not find it comfortable to sit in a cafe with her laptop and tablet and start speaking long texts. Because then everyone will go crazy she thinks.
+
+Nicolette can't double-click, because it's a quick move. 
+So for example if you want to select a piece of text. 
+You press down on the tablet and drag over the text. 
+Then the text turns blue. 
+That works for many people, but not for Nicolette.
+She can go up and down with the pen but not accurately. 
+Only it doesn't go as fast. 
+Holding and dragging is not yet possible.
+</details>
+
 src:
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API
 - https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition
+
 ### Round 2
+After the first testing of the prototype. 
+I continued to work on the prototype, and added more feature to it.
 
-## Test Results
-
+For the second testing op the prototype
+src:
+- 
 ## Feature
 ### Checklist
 - [X] User can select one word or multiple words from the text copy and paste it by using speech.
 - [X] User can copy the selected text using speech.
 - [X] User can paste the copied text using speech.
+- [X] Implement only light mode.
+- [X] There should have a clear contrast between the foreground and the background edge.
+- [X] Easier way to turn speech software on and off.
 
 ### Wishlist
 - [] User can select one word or multiple words from the text using speech.
-
-
-|  | Testen - Er is elke week getest. Er is een verslaglegging van de tests gedaan waarin de test-opzet wordt behandeld en er is een duidelijke conclusie beschreven met do's en dont's over hoe je goed kan testen. | | 
-|  | Testresultaten - Aan de hand van de tests wordt duidelijk gemaakt hoe deze hebben bijgedragen aan het verbeteren van het ontwerp of hoe dit een volgende keer beter of anders kan. | | 
+- [] Ensure that user can perform action with one command, key, tap, click.
+- [] User can copy without scrolling long.
+- [] Text should be large enough so she can read it.
+- [] Selecting without dragging, instead use voice.
+- [] Scroll down with a key/speech, or move to the side.
+- [] Command that does a few actions, to cut and paste.
 
 
 
 <!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
 
 <!-- How about a section that describes how to install this project? 🤓 -->
 
