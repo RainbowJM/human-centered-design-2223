@@ -241,15 +241,17 @@ src:
 - [X] Implement only light mode.
 - [X] There should have a clear contrast between the foreground and the background edge.
 - [X] Easier way to turn speech software on and off.
+- [X] Command that does a few actions, to cut and paste.
+- [X] Ensure that user can perform action with one command, key, tap, click.
+- [X] Text should be large enough so she can read it.
 
 ### Wishlist
 - [] User can select one word or multiple words from the text using speech.
-- [] Ensure that user can perform action with one command, key, tap, click.
 - [] User can copy without scrolling long.
-- [] Text should be large enough so she can read it.
 - [] Selecting without dragging, instead use voice.
 - [] Scroll down with a key/speech, or move to the side.
-- [] Command that does a few actions, to cut and paste.
+- [] Add nonsense
+
 
 
 
