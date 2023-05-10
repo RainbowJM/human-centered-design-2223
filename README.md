@@ -8,6 +8,8 @@ This application is designed for 1 human being. That human being is Nicolette.
 - [Design Principles](#design-principles)
 - [User Needs](#user-needs)
 - [Tests](#tests)
+- [Final](#final)
+- [Feature](#featurea)
 
 ---
 ## Concept
@@ -184,7 +186,7 @@ She can type but not as fast, can press a key one by one.
 So Nicolette can operate her laptop on her own, but she would like to find an easier way to want to select, copy and paste important piece of text.
 
 ### How
-This will be accomplished by using the user (Nicolette) will be able to copy and paste, this will be accomplished by using the web speech API.
+Nicolette likes to read articles on her laptop, she uses a wacom tablet as a mouse and the voice software as a keyboard. During testing, you could see that she can use the mouse pad and keyboard a bit. But she does have difficulty selecting text with the pen and mouse. She cannot use keyboard shortcuts such as `ctrl + c` and `ctrl + v`. But she did try. This will be accomplished by using the web speech API, so that the user (Nicolette) can copy and paste. Next to that there is also that the user can copy and paste by using simple commands.
 
 src: https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API
 
@@ -362,6 +364,18 @@ Plans/Idea's for next prototype:
 src:
 - https://developer.mozilla.org/en-US/docs/Web/API/Selection
 
+## Final
+After the second testing, and made some fixes and added some more functionality to the prototype. We can call it the final prototype for now.
+
+The final prototype you can find it in the following branch: [Final Prototype](https://github.com/RainbowJM/human-centered-design-2223.git)
+
+In this iteration I added the part of copy paste based on using simple commands.
+
+Also I did change the language of the application to dutch, so it would be easier for Nicolette to understand the instructions.
+
+
+All the features that was implemented in the prototype you can find it in the following section: [Feature](#feature).
+
 ## Feature
 ### Checklist
 - [X] User can select one word or multiple words from the text copy and paste it by using speech.
@@ -381,12 +395,14 @@ src:
 - [] Selecting without dragging, instead use voice.
 - [] Scroll down with a key/speech, or move to the side.
 
+## Conclusion
+The prototype is a good start, but there is still a lot of work to do. 
+After testing the prototype with Nicolette two times, each time you understand better what and where her struggle is. 
+One of her biggest struggle is to copy and paste between documentation.
+The final prototype does not fully solve this problem, because it is a web application. 
+But It does cover the part of copy and paste easier. 
+And you can now copy something from the web application with the simple command or speech. 
+And then go to the documentation and paste it there, by using right mouse click and paste.
+For the part of copy and paste between documentation, it would be better to create a desktop application.
 
-
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
 
