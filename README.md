@@ -13,6 +13,133 @@ This application is designed for 1 human being. That human being is Nicolette.
 The concept that was created is a site where the user can select, copy and paste using speech. The users talking is being listened to, so that the user can use it for commands.
 
 ## Installation
+### Clone repo
+```
+git clone https://github.com/RainbowJM/human-centered-design-2223.git
+```
+For the installation of this application you will need the following:
+- NPM
+- NodeJS
+- Express
+- EJS
+- Nodemon
+
+### NPM and NodeJS
+To install NPM, use
+```
+npm install
+```
+To install NodeJS on MacOS you can use the following command in your terminal
+```
+brew install node
+```
+After use the following command to set up you package.json
+```
+npm init
+```
+After doing this you will have to answer a few question so the set up, at the end you will get the following package.json file
+
+```json
+{
+  "name": "human-centered-design-2223",
+  "version": "1.0.0",
+  "description": "The copy and paste machine 2.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RainbowJM/human-centered-design-2223.git"
+  },
+  "keywords": [
+    "copy",
+    "paste",
+    "table",
+    "voice"
+  ],
+  "author": "Jevona Magdalena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RainbowJM/human-centered-design-2223/issues"
+  },
+  "homepage": "https://github.com/RainbowJM/human-centered-design-2223#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
+
+```
+
+### Express
+For the server side of the application, we used the library Express.
+To install it you can use npm
+```
+npm install express
+```
+All the logic of the server you will find in the file `app.js`. 
+
+### EJS
+For this application the template engine that is used is EJS.
+It will take care of the rendering of the static pages
+
+To install the template you will have to do the following
+```
+npm install ejs
+```
+In the server you have to tell it where what template is used
+This you do by adding the following in the `app.js`, the method `app.set()`
+And for the static file like the stylesheet, img you have to use de static express middleware
+Als you have to indicate that this is in the public file
+
+```javascript
+app.set('view engine', 'ejs');
+app.set('views', 'views')
+
+app.use(express.static('public'));
+```
+
+### Nodemon
+This package is life saver it makes it more easier, so that you don't have to restart your server each time you add/edit something in your code. It will take care of this for you.
+
+By using the script options in the `package.json` you can make different script that you can then run by using a shorter command in your terminal
+
+```javascript
+ "scripts": {
+    "start": "nodemon app.js",
+    "dev": "node app.js"
+},
+```
+
+## Server
+To start the server use
+```
+npm start
+```
+The structure of the server you will find in the file `app.js`
+``` javascript
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 1000;
+
+```
+To import 'Express' you have to use 'require()' method
+
+The localhost port in this case is `3000`, this is where the server will be running.
+For all of this you have to have your application knowing where it should be listening to.
+This part you can do by adding the following code in your `app.js`
+
+```javascript
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+```
 
 ## Design Principles
 ### Study situation
