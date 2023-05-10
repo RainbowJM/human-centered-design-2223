@@ -112,7 +112,8 @@ function paste() {
 
 function nonsense() {
 
-    body.innerHTML = `<main id='rain'>
+    body.innerHTML = `<main id='rain' class='test'>
+    <p class='text'>Druk ESC</p>
     <div class="container">
   <div class="rain">
     <div class="raindrop"></div>
