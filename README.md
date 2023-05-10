@@ -369,10 +369,11 @@ After the second testing, and made some fixes and added some more functionality 
 
 The final prototype you can find it in the following branch: [Final Prototype](https://github.com/RainbowJM/human-centered-design-2223.git)
 
-In this iteration I added the part of copy paste based on using simple commands.
+In this iteration the part of copy paste based on using simple commands was added.
 
-Also I did change the language of the application to dutch, so it would be easier for Nicolette to understand the instructions.
+Also the language of the application was changed to dutch, so it would be easier for Nicolette to understand the instructions.
 
+The final improvement of the prototype was the styling of the application and added the part that when you press the wrong button, the application will give you a sort of feedback.
 
 All the features that was implemented in the prototype you can find it in the following section: [Feature](#feature).
 
