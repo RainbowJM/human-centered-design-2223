@@ -372,13 +372,13 @@ src:
 - [X] Command that does a few actions, to cut and paste.
 - [X] Ensure that user can perform action with one command, key, tap, click.
 - [X] Text should be large enough so she can read it.
+- [X] Add nonsense
 
 ### Wishlist
 - [] User can select one word or multiple words from the text using speech.
 - [] User can copy without scrolling long.
 - [] Selecting without dragging, instead use voice.
 - [] Scroll down with a key/speech, or move to the side.
-- [] Add nonsense
 
 
 
