@@ -35,10 +35,10 @@ window.addEventListener('keydown', (e) => {
                 console.log(text);
                 pastText.innerHTML = text;
             })
-    } else if (e.key === 'l' || e.key === 'L') {
+    } else if (/^[qwertyuioadfghjklzxbnmQWERTYUIOADFGHJKLZXBNM]$/.test(e.key)) {
         mainElement.classList.toggle('hidden')
         nonsense();
-    } else if (e.key === 'Escape' || e.key === 'Esc'){
+    } else if (e.key === 'Escape' || e.key === 'Esc') {
         mainElement.classList.remove('hidden');
         main();
     }
@@ -149,7 +149,10 @@ function main() {
 
             <u>Toetsenbord gebruiken om te kopiëren en te plakken:</u><br>
             Selecteer de tekst die u wilt kopiëren en druk op <b>C</b>. <br>
-            Druk dan op <b>V</b> om de tekst te plakken.
+            Druk dan op <b>V</b> om de tekst te plakken. <br><br>
+
+            <u><b>Let Op!</b></u><br>
+            Druk niet op de verkeerde toets.
         </p>
     </section>
     <section>
