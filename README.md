@@ -166,7 +166,7 @@ By ignoring conventions, I achieved the design improvements below, among others.
 <details><summary>Description</summary>Add nonsense is about adding useless features or simply because it's fun. 
 By adding nonsense, I achieved the below improvement in the design, among other things.</details>
 
-- When you press the wrong key something will happen in the website
+- When you press the wrong key something will happen in the website.
 
 ## User Needs
 ### Who
