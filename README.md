@@ -2,6 +2,13 @@
 This application is designed for 1 human being. That human being is Nicolette. 
 <img width="1352" alt="Screenshot 2023-05-10 at 13 37 11" src="https://github.com/RainbowJM/human-centered-design-2223/assets/59873140/09c41090-76dc-46d7-a778-52fa8637ed7f">
 
+## Research question
+
+## Problem definition
+
+## Solution
+---
+
 ## Table of Content
 - [Concept](#concept)
 - [Installation](#installation)
