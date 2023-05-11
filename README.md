@@ -1,12 +1,25 @@
-# [Copy & Paste 2.0](https://copy-paste.adaptable.app/)
+# Copy & Paste 2.0
 <img width="1352" alt="Screenshot 2023-05-10 at 13 37 11" src="https://github.com/RainbowJM/human-centered-design-2223/assets/59873140/09c41090-76dc-46d7-a778-52fa8637ed7f">
 
 ## Research question
+### Copy and paste without clicking
 This application is designed for 1 human being. That human being is Nicolette. 
-
+> How can Nicolette copy and paste without a mouse?
+> 
 ## Problem definition
+Nicolette has very limited ability to use her arms and legs.
+She does not use a mouse and barely uses the keyboard. 
+So she cannot use shortcuts and the right mouse. 
+Alternatively, she uses a wacom drawing tablet with a pen as a mouse and a voice program as a keyboard. 
+Since Nicolette doesn't use a mouse or shortcut, it becomes more difficult to copy and paste text. 
+That is why creating a prototype where she can copy text without shortcuts or the right mouse button is very important.
 
 ## Solution
+As a solution, is there a article for demostration perposes.
+By using the speech tool she can say copy and paste and the tool will do this for her.
+Instead of shortcuts like `ctrl+c` she can copy by pressing `c` to copy the text. And if she presses `v` the text can paste somewhere. 
+
+[Copy & Paste 2.0](https://copy-paste.adaptable.app/) 
 ---
 
 ## Table of Content
