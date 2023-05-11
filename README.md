@@ -20,7 +20,7 @@ This application is designed for 1 human being. That human being is Nicolette.
 
 ---
 ## Concept
-The concept that was created is a site where the user can select, copy and paste using speech. The users talking is being listened to, so that the user can use it for commands.
+The concept that was created is a site where the user can select, copy and paste using speech. 
 
 ## Installation
 ### Clone repo
