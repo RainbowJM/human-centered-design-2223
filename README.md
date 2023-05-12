@@ -185,6 +185,7 @@ By ignoring conventions, I achieved the design improvements below, among others.
 
 - Used speech recognition for copy and paste.
 - Created simple commands for copy and paste.
+- Font size bigger.
 
 ### Add nonsense
 <details><summary>Description</summary>Add nonsense is about adding useless features or simply because it's fun. 
