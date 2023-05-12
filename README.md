@@ -5,7 +5,7 @@
 ### Copy and paste without clicking
 This application is designed for 1 human being. That human being is Nicolette. 
 > How can Nicolette copy and paste without a mouse?
-> 
+
 ## Problem definition
 Nicolette has very limited ability to use her arms and legs.
 She does not use a mouse and barely uses the keyboard. 
