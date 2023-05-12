@@ -184,6 +184,7 @@ By prioritizing identity, I achieved the design improvements below, among others
 By ignoring conventions, I achieved the design improvements below, among others.</details>
 
 - Used speech recognition for copy and paste.
+- Created simple commands for copy and paste.
 
 ### Add nonsense
 <details><summary>Description</summary>Add nonsense is about adding useless features or simply because it's fun. 
